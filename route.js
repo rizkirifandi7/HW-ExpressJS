@@ -1,10 +1,10 @@
 const express = require("express");
 const router = express.Router();
-const { getAllFilms, getFilmById, getAllCategories, getFilmsByCategoryName, getAllActor } = require("./query.js");
+const { getAllFilms, getFilmById, getAllCategories, getFilmsByCategoryName, getAllActors } = require("./query.js");
 
 // Route untuk menampilkan data seluruh list actor
 router.get("/actor", async (req, res) => {
-	const actor = await getAllActor();
+	const actor = await getAllActors();
 	res.json(actor);
 });
 
@@ -31,6 +31,7 @@ router.get("/categories", async (req, res) => {
 	res.json(categories);
 });
 
+// Route untuk menampilkan data list fil berdasarkan category
 router.get("/film/category/:categoryName", async (req, res) => {
 	const categoryName = req.params.categoryName;
 	const films = await getFilmsByCategoryName(categoryName);
