@@ -44,7 +44,8 @@ Sebelum dapat menjalankan aplikasi, pastikan telah memenuhi persyaratan berikut:
 
 1. Masukkan endpoint berikut ke dalam url browser untuk menampilkan semua actor:
 
-- `http://localhost:3000/api/actor`
+   ```bash
+   http://localhost:3000/api/actor
 
 Maka akan muncul seperti berikut:
 
@@ -52,7 +53,8 @@ Maka akan muncul seperti berikut:
 
 2. Masukkan endpoint berikut ke dalam url browser untuk menampilkan semua list film:
 
-- `http://localhost:3000/api/film`
+   ```bash
+   http://localhost:3000/api/film
 
 Maka akan muncul seperti berikut:
 
@@ -61,8 +63,9 @@ Maka akan muncul seperti berikut:
 3. Masukkan endpoint berikut ke dalam url browser untuk menampilkan film tertentu berdasarkan id:
 
 - `http://localhost:3000/api/film/{film_id}`
-
-Contoh: `http://localhost:3000/api/film/1`
+- Contoh 
+   ```bash
+   http://localhost:3000/api/film/1
 
 Maka akan muncul seperti berikut:
 
@@ -70,7 +73,8 @@ Maka akan muncul seperti berikut:
 
 4. Masukkan endpoint berikut ke dalam url browser untuk menampilkan semua list kategori:
 
-- `http://localhost:3000/api/categories`
+   ```bash
+   http://localhost:3000/api/categories
 
 Maka akan muncul seperti berikut:
 
@@ -79,8 +83,9 @@ Maka akan muncul seperti berikut:
 5. Masukkan endpoint berikut ke dalam url browser Untuk menampilkan film berdasarkan kategori:
 
 - `http://localhost:3000/api/film/category/{nama_kategori}`
-
-Contoh: `http://localhost:3000/api/film/category/Horror`
+- Contoh:
+   ```bash
+   http://localhost:3000/api/film/category/Horror
 
 Maka akan muncul seperti berikut:
 
