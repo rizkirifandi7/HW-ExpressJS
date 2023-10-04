@@ -24,6 +24,7 @@ File ini merupakan file untuk melakukan pemanggilan fungsi dari file Query yang 
 
 File ini merupakan file yang melakukan proses mendapatkan data dari database dengan menggunakan command sql
 
+</br>
 Adapun juga beberap folder yang berisi file yaitu :
 - Seeding
   
