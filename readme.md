@@ -31,7 +31,7 @@ Sebelum dapat menjalankan aplikasi, pastikan telah memenuhi persyaratan berikut:
    ```bash
    cd HW-ExpressJS
 
-3. Install depedensi
+3. Install depedensi atau module
 
    ```bash
    npm install
