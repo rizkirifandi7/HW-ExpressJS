@@ -10,6 +10,23 @@ Program ini akan berjalan di port sesuai dengan yang ditentukan (misalnya, port 
 - Untuk menampilkan semua kategori: `http://localhost:3000/api/categories`
 - Untuk menampilkan film berdasarkan kategori: `http://localhost:3000/api/film/category/{nama_kategori}`
 
+Pada program ini terdiri dari 4 File utama yaitu :
+- Index.js
+File ini merupakan file untuk menjalankan keseluruhan program
+- Db.js
+File ini merupakan file untuk menghubungkan ke database
+- Router.js
+File ini merupakan file untuk melakukan pemanggilan fungsi dari file Query yang nantinya setiap endpoint diakses
+- Query.js
+File ini merupakan file yang melakukan proses mendapatkan data dari database dengan menggunakan command sql
+
+Adapun juga beberap folder yang berisi file yaitu :
+- Seeding
+Pada folder ini berisi file seed yang berfungsi untuk melakukan penambahan data dengan query  sql ke database
+- Migration
+Pada folder ini berisi migration yang berfungsi untuk melakukan proses update ke database
+
+
 ## Persyaratan
 
 Sebelum dapat menjalankan aplikasi, pastikan telah memenuhi persyaratan berikut:
