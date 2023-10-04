@@ -9,7 +9,7 @@ Program ini akan berjalan di port sesuai dengan yang ditentukan (misalnya, port 
 - Untuk menampilkan film tertentu berdasarkan ID: `http://localhost:3000/api/film/{film_id}`
 - Untuk menampilkan semua kategori: `http://localhost:3000/api/categories`
 - Untuk menampilkan film berdasarkan kategori: `http://localhost:3000/api/film/category/{nama_kategori}`
-
+</br>
 Pada program ini terdiri dari 4 File utama yaitu :
 - Index.js
   
