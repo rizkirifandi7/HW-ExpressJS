@@ -42,7 +42,7 @@ Sebelum dapat menjalankan aplikasi, pastikan telah memenuhi persyaratan berikut:
 
 ## Demo Program
 
-Masukkan endpoint berikut ke dalam url browser untuk menampilkan semua actor:
+1. Masukkan endpoint berikut ke dalam url browser untuk menampilkan semua actor:
 
 - `http://localhost:3000/api/actor`
 
@@ -50,7 +50,7 @@ Maka akan muncul seperti berikut:
 
 ![Actor](./public/assets/actor.jpeg)
 
-Masukkan endpoint berikut ke dalam url browser untuk menampilkan semua list film:
+2. Masukkan endpoint berikut ke dalam url browser untuk menampilkan semua list film:
 
 - `http://localhost:3000/api/film`
 
@@ -58,7 +58,7 @@ Maka akan muncul seperti berikut:
 
 ![Film](./public/assets/listfilm.jpeg)
 
-Masukkan endpoint berikut ke dalam url browser untuk menampilkan film tertentu berdasarkan id:
+3. Masukkan endpoint berikut ke dalam url browser untuk menampilkan film tertentu berdasarkan id:
 
 - `http://localhost:3000/api/film/{film_id}`
 
@@ -68,7 +68,7 @@ Maka akan muncul seperti berikut:
 
 ![FilmId](./public/assets/film-id.jpeg)
 
-Masukkan endpoint berikut ke dalam url browser untuk menampilkan semua list kategori:
+4. Masukkan endpoint berikut ke dalam url browser untuk menampilkan semua list kategori:
 
 - `http://localhost:3000/api/categories`
 
@@ -76,7 +76,7 @@ Maka akan muncul seperti berikut:
 
 ![Categories](./public/assets/categories.jpeg)
 
-Masukkan endpoint berikut ke dalam url browser Untuk menampilkan film berdasarkan kategori:
+5. Masukkan endpoint berikut ke dalam url browser Untuk menampilkan film berdasarkan kategori:
 
 - `http://localhost:3000/api/film/category/{nama_kategori}`
 
