@@ -26,6 +26,7 @@ File ini merupakan file yang melakukan proses mendapatkan data dari database den
 
 </br>
 Adapun juga beberap folder yang berisi file yaitu :
+
 - Seeding
   
 Pada folder ini berisi file seed yang berfungsi untuk melakukan penambahan data dengan query  sql ke database
