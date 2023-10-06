@@ -67,8 +67,12 @@ Sebelum dapat menjalankan aplikasi, pastikan telah memenuhi persyaratan berikut:
 5. Proses selesai
 
 ## Demo Program
+1. Pastikan database(PostgreSQL) sudah dibuka, kemudian jalankan program dengan terminal menggunakan command berikut : 
 
-1. Masukkan endpoint berikut ke dalam url browser untuk menampilkan semua actor:
+   ```bash
+   npm run start
+
+2. Masukkan endpoint berikut ke dalam url browser untuk menampilkan semua actor:
 
    ```bash
    http://localhost:3000/api/actor
@@ -77,7 +81,7 @@ Maka akan muncul seperti berikut:
 
 ![Actor](./public/assets/actor.jpeg)
 
-2. Masukkan endpoint berikut ke dalam url browser untuk menampilkan semua list film:
+3. Masukkan endpoint berikut ke dalam url browser untuk menampilkan semua list film:
 
    ```bash
    http://localhost:3000/api/film
@@ -86,7 +90,7 @@ Maka akan muncul seperti berikut:
 
 ![Film](./public/assets/listfilm.jpeg)
 
-3. Masukkan endpoint berikut ke dalam url browser untuk menampilkan film tertentu berdasarkan id:
+4. Masukkan endpoint berikut ke dalam url browser untuk menampilkan film tertentu berdasarkan id:
 
 - `http://localhost:3000/api/film/{film_id}`
 - Contoh 
@@ -97,7 +101,7 @@ Maka akan muncul seperti berikut:
 
 ![FilmId](./public/assets/film-id.jpeg)
 
-4. Masukkan endpoint berikut ke dalam url browser untuk menampilkan semua list kategori:
+5. Masukkan endpoint berikut ke dalam url browser untuk menampilkan semua list kategori:
 
    ```bash
    http://localhost:3000/api/categories
@@ -106,7 +110,7 @@ Maka akan muncul seperti berikut:
 
 ![Categories](./public/assets/categories.jpeg)
 
-5. Masukkan endpoint berikut ke dalam url browser Untuk menampilkan film berdasarkan kategori:
+6. Masukkan endpoint berikut ke dalam url browser Untuk menampilkan film berdasarkan kategori:
 
 - `http://localhost:3000/api/film/category/{nama_kategori}`
 - Contoh:
