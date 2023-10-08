@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
-    "seed" : "node db_seed/seed_actor.js",
+    "seed": "node db_seed/seed_actor.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
+    "morgan": "^1.10.0",
     "nodemon": "^3.0.1",
     "pg": "^8.11.3"
   }

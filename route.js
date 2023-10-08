@@ -35,7 +35,11 @@ router.get("/categories", async (req, res) => {
 router.get("/category/:categoryName", async (req, res) => {
 	const categoryName = req.params.categoryName;
 	const films = await getFilmsByCategoryName(categoryName);
-	res.json(films);
+	if (films) {
+		res.json(films);
+	} else {
+		res.status(404).json({ message: "Film tidak ditemukan" });
+	}
 });
 
 module.exports = router;
