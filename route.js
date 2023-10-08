@@ -32,7 +32,7 @@ router.get("/categories", async (req, res) => {
 });
 
 // Route untuk menampilkan data list fil berdasarkan category
-router.get("/film/category/:categoryName", async (req, res) => {
+router.get("/category/:categoryName", async (req, res) => {
 	const categoryName = req.params.categoryName;
 	const films = await getFilmsByCategoryName(categoryName);
 	res.json(films);

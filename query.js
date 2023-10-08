@@ -53,10 +53,10 @@ const getAllCategories = async () => {
 const getFilmsByCategoryName = async (categoryName) => {
 	try {
 		const query = `
-      SELECT f.* FROM film f
-      INNER JOIN film_category fc ON f.film_id = fc.film_id
-      INNER JOIN category c ON fc.category_id = c.category_id
-      WHERE c.name = $1
+		SELECT * FROM film_category fc
+		INNER JOIN film f ON fc.film_id = f.film_id
+		INNER JOIN category c ON fc.category_id = c.category_id
+		WHERE c.name = $1
     `;
 		const { rows } = await pool.query(query, [categoryName]);
 		return rows;
